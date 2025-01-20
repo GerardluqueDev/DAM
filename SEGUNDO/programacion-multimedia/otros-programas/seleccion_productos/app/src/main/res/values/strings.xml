@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">seleccion_productos</string>
+    <string name="texto_anillo">Anillo único</string>
+    <string name="texto_sauron">Sauron</string>
+    <string name="radio_comun">Común</string>
+    <string name="radio_infrecuente">Infrecuente</string>
+    <string name="radio_rara">Rara</string>
+    <string name="radio_mitica">Mítica</string>
+</resources>

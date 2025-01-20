@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".SegundaAvtivity">
+
+    <TextView
+        android:id="@+id/textRecibeNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El nombre de la carta es: "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textRecibePrecio"
+        android:layout_marginTop="5dp"
+        android:text="El precio es: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textRecibeNombre" />
+
+    <TextView
+        android:id="@+id/textNombreCarta"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/textRecibeNombre"
+        app:layout_constraintStart_toEndOf="@+id/textRecibeNombre"
+        app:layout_constraintTop_toTopOf="@+id/textRecibeNombre" />
+
+    <TextView
+        android:id="@+id/textPrecio"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/textRecibePrecio"
+        app:layout_constraintStart_toEndOf="@+id/textRecibePrecio"
+        app:layout_constraintTop_toTopOf="@+id/textRecibePrecio" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

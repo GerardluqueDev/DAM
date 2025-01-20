@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">States</string>
+    <string name="act_edit">Activate editing</string>
+    <string name="btn_add">Add</string>
+    <string name="txt_num">0</string>
+</resources>

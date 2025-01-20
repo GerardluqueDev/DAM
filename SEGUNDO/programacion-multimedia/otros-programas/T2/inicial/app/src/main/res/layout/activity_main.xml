@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LinearLayout es una pantalla donde todo se agrupa o bién de manera
+vertical o horizontal y para eso es obligatorio ponerle el atributo
+de orientación-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+    
+    <TextView
+        android:text="Primera app"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btPulsar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pulsar"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">hub_aplicaciones</string>
+    <string name="acceder">Acceder</string>
+    <string name="volver">Volver</string>
+    <string name="texto_intro">Introduce el valor</string>
+    <string-array name="items_principal">
+        <item>Calculadora simple</item>
+        <item>Conversor de temperaturas</item>
+        <item>Contador de clics</item>
+        <item>Generador de números aleatorios</item>
+    </string-array>
+</resources>
