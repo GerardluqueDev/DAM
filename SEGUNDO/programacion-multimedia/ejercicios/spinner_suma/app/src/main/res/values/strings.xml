@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">spinner_suma</string>
+    <string name="hint_uno">Introduce el primer numero</string>
+    <string name="hint_dos">Introduce el segundo número</string>
+    <string name="bt_calcular">Calcular</string>
+    <string name="mensaje_result">Resultado</string>
+    <string-array name="spinnerOp">
+        <item>Sumar</item>
+        <item>Restar</item>
+        <item>Multiplicación</item>
+        <item>División</item>
+    </string-array>
+</resources>

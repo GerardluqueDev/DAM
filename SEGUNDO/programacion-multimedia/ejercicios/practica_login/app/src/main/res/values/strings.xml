@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">practica_login</string>
+    <string name="text_nombre">Nombre</string>
+    <string name="text_email">Email</string>
+    <string name="text_btAcceder">Acceder</string>
+    <string name="text_btRegistro">¿No estas registrado? ¡Click para registrarte!</string>
+</resources>

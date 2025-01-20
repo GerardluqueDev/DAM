@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">formulario</string>
+    <string name="mensaje_nombre">Escribe tu nombre</string>
+    <string name="mensaje_apellido">Escribe tus apellidos</string>
+    <string name="mensaje_email">Introduce tu email</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="acceder">Acceder</string>
+    <string name="bienvenido">¡Bienvenido!</string>
+    <string name="nombre">Nombre:</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="email">Email:</string>
+    <string-array name="valoresSpinner">
+        <item>Usuario registrado</item>
+        <item>Usuario no registrado</item>
+    </string-array>
+</resources>

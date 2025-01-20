@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Form</string>
+    <string name="mensaje_nombre">Enter your name</string>
+    <string name="mensaje_apellido">Enter your last name</string>
+    <string name="mensaje_email">Enter your email</string>
+    <string name="hombre">Male</string>
+    <string name="mujer">Female</string>
+    <string name="acceder">Access</string>
+    <string name="bienvenido">Welcome!</string>
+    <string name="nombre">Name:</string>
+    <string name="apellidos">Last name:</string>
+    <string name="email">Email:</string>
+    <string-array name="valoresSpinner">
+        <item>Registered user</item>
+        <item>Unregistered user</item>
+    </string-array>
+</resources>

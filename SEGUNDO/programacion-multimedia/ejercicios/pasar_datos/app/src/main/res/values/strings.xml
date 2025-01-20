@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">pasar_datos</string>
+    <string-array name="paises">
+        <item>España</item>
+        <item>Francia</item>
+        <item>Alemania</item>
+        <item>Argentina</item>
+    </string-array>
+</resources>
