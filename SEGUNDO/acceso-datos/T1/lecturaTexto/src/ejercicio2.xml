@@ -1,0 +1,32 @@
+﻿<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+ -->
+<empleados>
+   <empleado id="111">
+      <nombre>Paco</nombre>
+      <apellidos>Mer</apellidos>
+      <ciudad>Burgos</ciudad>
+   </empleado>
+   <empleado id="121">
+      <nombre>Aitor</nombre>
+      <apellidos>Menta</apellidos>
+      <ciudad>Bilbao</ciudad>
+   </empleado>
+   <empleado id="1345">
+      <nombre>Laura</nombre>
+      <apellidos>Mona</apellidos>
+      <ciudad>Sevilla</ciudad>
+      <pais>España</pais>
+   </empleado>
+   <empleado id="345345">
+      <nombre>Marta</nombre>
+      <apellidos>rtita</apellidos>
+      <ciudad>Madrid</ciudad>
+   </empleado>
+   <empleado id="234">
+      <nombre>rtr</nombre>
+      <apellidos>rtita</apellidos>
+      <ciudad>Madrid</ciudad>
+   </empleado>
+</empleados>

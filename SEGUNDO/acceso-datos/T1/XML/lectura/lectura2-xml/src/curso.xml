@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<UAX lugar="Brunete">
+    <Asignatura ciclo="DAM">
+        <Nombre>Pepe</Nombre>
+        <Apellidos>Rodriguez Mir</Apellidos>
+    </Asignatura>
+    <Asignatura ciclo="DAW">
+        <Nombre>Jose</Nombre>
+        <Apellidos>Escudero Perez</Apellidos>
+    </Asignatura>
+    <Asignatura ciclo="ASIR">
+        <Nombre>Ana</Nombre>
+        <Apellidos>Lopez Lopez</Apellidos>
+    </Asignatura>
+</UAX>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<UAX lugar="Brunete">
+    <Asignatura ciclo="DAM">
+        <Alumno>Pepe</Alumno>
+        <Alumno>Sara</Alumno>
+    </Asignatura>
+</UAX>

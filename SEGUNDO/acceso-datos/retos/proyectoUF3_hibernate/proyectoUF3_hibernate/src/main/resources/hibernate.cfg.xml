@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <!-- URL de conexión a la base de datos -->
+    <property name="connection.url">jdbc:mariadb://localhost:3307/biblioteca</property>
+
+    <!-- Clase del controlador JDBC -->
+    <property name="connection.driver_class">org.mariadb.jdbc.Driver</property>
+
+    <!-- Nombre de usuario para la base de datos -->
+    <property name="connection.username">root</property>
+
+    <!-- Contraseña de la base de datos -->
+    <property name="connection.password"></property>
+
+    <!-- Dialecto de Hibernate para MySQL -->
+    <property name="dialect">org.hibernate.dialect.MariaDBDialect</property>
+
+    <!-- Mostrar las consultas SQL generadas -->
+    <property name="show_sql">true</property>
+
+    <!-- Formatear las consultas SQL -->
+    <property name="format_sql">true</property>
+
+    <!-- Contexto de la sesión -->
+    <property name="current_session_context_class">thread</property>
+
+    <!--  Automapping entidades -->
+    <!--<mapping package="entities"/>-->
+    <mapping class="entities.Tema"/>
+    <mapping class="entities.Editorial"/>
+    <mapping class="entities.Autor"/>
+    <mapping class="entities.Libro"/>
+    <mapping class="entities.ActualizacionesLibro"/>
+    <mapping class="entities.Prestamo"/>
+    <mapping class="entities.Socio"/>
+  </session-factory>
+</hibernate-configuration>

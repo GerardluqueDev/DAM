@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <categoria nombre="Novela">
+        <libro id="1">
+            <titulo>El Quijote</titulo>
+            <autor>
+                <nombre>Miguel de Cervantes</nombre>
+                <nacionalidad>Española</nacionalidad>
+            </autor>
+            <publicacion>
+                <año>1605</año>
+                <editorial>Francisco de Robles</editorial>
+            </publicacion>
+        </libro>
+        <libro id="2">
+            <titulo>Cien Años de Soledad</titulo>
+            <autor>
+                <nombre>Gabriel García Márquez</nombre>
+                <nacionalidad>Colombiana</nacionalidad>
+            </autor>
+            <publicacion>
+                <año>1967</año>
+                <editorial>Sudamericana</editorial>
+            </publicacion>
+        </libro>
+    </categoria>
+    <categoria nombre="Ciencia Ficción">
+        <libro id="3">
+            <titulo>1984</titulo>
+            <autor>
+                <nombre>George Orwell</nombre>
+                <nacionalidad>Británica</nacionalidad>
+            </autor>
+            <publicacion>
+                <año>1949</año>
+                <editorial>Secker y Warburg</editorial>
+            </publicacion>
+        </libro>
+    </categoria>
+</biblioteca>

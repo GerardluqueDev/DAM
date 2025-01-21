@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canal>
+    <titulo>Noticias del Día</titulo>
+    <copyright>© 2024 Noticias del Día. Todos los derechos reservados.</copyright>
+    <noticias>
+        <noticia titulo="Descubrimiento Científico Revolucionario" creador="María Pérez">
+            <imagen>https://example.com/images/cientifico.jpg</imagen>
+            <descripcion>Un grupo de científicos ha descubierto un nuevo material que podría revolucionar la tecnología.</descripcion>
+        </noticia>
+        <noticia titulo="Avances en Medicina" creador="Carlos López">
+            <imagen>https://example.com/images/medicina.jpg</imagen>
+            <descripcion>Un innovador tratamiento ha mostrado resultados prometedores para combatir enfermedades raras.</descripcion>
+        </noticia>
+        <noticia titulo="Tecnología de Punta" creador="Laura García">
+            <imagen>https://example.com/images/tecnologia.jpg</imagen>
+            <descripcion>Las nuevas herramientas de inteligencia artificial están transformando la forma en que trabajamos.</descripcion>
+        </noticia>
+    </noticias>
+</canal>
